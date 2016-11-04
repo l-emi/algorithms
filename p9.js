@@ -1,3 +1,4 @@
+//Special Pythagorean Triplet
 //There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 //Find the product abc.
 //ANSWER: 375 * 200 * 425 = 31875000.
