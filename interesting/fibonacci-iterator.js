@@ -2,7 +2,7 @@
 //The Fibonacci sequence using iterators! 
 
 var Fib = {
-	[Symbol.iterator]() {
+[Symbol.iterator]() {
 		var n1 = 1, n2 = 1;
 
 		return {
