@@ -2,7 +2,7 @@
 //The Fibonacci sequence using iterators! 
 
 var Fib = {
-[Symbol.iterator]() {
+	[Symbol.iterator]() {
 		var n1 = 1, n2 = 1;
 
 		return {
@@ -25,11 +25,11 @@ var Fib = {
 		};
 	}
 };
-
+	
 for (var v of Fib) {
 	console.log( v );
 
-	if (v > 50) break;
+	if (v > 50) break;	
 }
 // 1 1 2 3 5 8 13 21 34 55
 // Fibonacci sequence abandoned.
