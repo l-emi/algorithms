@@ -13,7 +13,7 @@ var Fib = {
 				var current = n2;
 				n2 = n1;
 				n1 = n1 + current;
-				return { value: current, done: false };
+			  return { value: current, done: false };
 			},
 
 			return(v) {
