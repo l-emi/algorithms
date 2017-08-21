@@ -1,2 +1,3 @@
-# algorithms
-A hub for all my algorithms. 
+# Algorithms
+
+Collecting all the algorithms here, rather than having them scattered across different repos. 
